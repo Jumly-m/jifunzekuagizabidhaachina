@@ -1,0 +1,157 @@
+#root {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #D8DAE2;
+  color: #0E0E38;
+}
+
+
+
+/* For screens smaller than 600px */
+@media (max-width: 678px) {
+  .main-container{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+    margin-top: 120px;
+  }
+  
+  
+  .accordian-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 98%;
+  }
+  
+  .accordian{
+    
+  }
+  .item{
+color: #EFF0F1;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+  }
+  .title{
+    color:#0E0E38 ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    cursor: pointer;
+  }
+  .content{
+    color:#0E0E38 ;
+    height: auto;
+  }
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:gray;
+    /* Position and sizing changes: */
+    position: fixed; /* Stick to the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; /* Extend horizontally across the full viewport */
+    height: 120px; /* Adjust height as needed */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    z-index: 9999;
+    color:#fff !important;
+   
+  
+  }
+  
+  .nav{
+    width: 100%;
+    color:#fff !important;
+  }
+  
+  .me-auto{
+    color:#fff;
+  }
+  
+  .logo{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+  }
+  .brand{
+    display: flex;
+  }
+  .intro{   
+     margin-bottom: 40px;
+    margin-top: 24px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .firstimage{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .intro-div1{
+    width: 100%;
+
+  }
+  .video-container {
+    position: relative;
+    width: 100%; /* Set container width to 100% */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%; /* Set iframe width to 100% */
+    height: 100%; /* Set iframe height to 100% */
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+}
+.button-container{
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.buy-btn{
+  width: 90%;
+}
+.intro h1{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.5;
+}
+}
+
+/* For screens larger than 600px */
+@media (min-width: 601px) {
+ 
+
+}
+
+
