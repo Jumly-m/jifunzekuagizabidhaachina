@@ -139,7 +139,13 @@ html, body {
   margin-bottom: 36px;
   flex-direction: column;
 }
-
+.button-container h4{
+  margin-bottom: 22px;
+}
+.button-container h5{
+  text-decoration: line-through;
+  margin-bottom: 10px;
+}
 .buy-btn{
   width: 90%;
 }
@@ -152,6 +158,33 @@ html, body {
 .navitem{
   color:#ffff;
 }
+.carousel-div{
+  width: 100%;
+  border:1px solid red;
+}
+.carousel{
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+}
+
+.carouselimg{
+  scroll-snap-align: start;
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  height: 100px;
+  background-color: gray;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  clear: both; /* Ensures footer clears floated elements above */
+}
+
 }
 
 /* For screens larger than 600px */

@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Intro/>
       <Accordian />
+
     </div>
   );
 }

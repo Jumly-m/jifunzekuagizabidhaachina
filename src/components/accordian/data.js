@@ -7,7 +7,7 @@ const data = [
     },
     {
       id  : '2',
-      question: "Je nakipataje kitabbu hiki?",
+      question: "Je nakipataje kitabu hiki?",
       answer:
         "Kitabu hiki kinapatikana kwa shillingi Elfu tano tu ,jinsi ya kukipata utabonyeza nahitaji kitabu kisha utalipia kisha utakipata kitabu hiki",
     },
