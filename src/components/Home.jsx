@@ -11,8 +11,12 @@ const Intro = () => {
 
       </div>
       <div className="video-container">
-    <iframe src="https://www.youtube.com/shorts/8pm-ZKi1_-g" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+    <iframe
+     src="https://www.youtube.com/embed/nUTkoxhI4g0?autoplay=1&muted=1"
+     width="420" height="315"
+     ></iframe>
+</div>
+
 
       <div className='button-container'>
         <Button color="primary"  className="buy-btn" href="https://wa.me/+255779649545">NAHITAJI KITABU</Button>

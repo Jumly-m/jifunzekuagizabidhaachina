@@ -24,10 +24,10 @@ function Header(props) {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink className='item' href="#">Mafunzo</NavLink>
+              <NavLink className='navitem' href="#">Mafunzo</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink  className="item"href="#">
+              <NavLink  className="navitem"href="#">
                 Offers
               </NavLink>
             </NavItem>

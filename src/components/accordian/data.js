@@ -1,7 +1,7 @@
 const data = [
     {
       id  : '1',
-      question: "Je kitabu hiki kinahusika na nini?",
+      question: "Je kitabu hiki kinahusu  nini?",
       answer:
         "Hiki ni kitabu maalumu kwa ajili ya kujifunza jinsi ya kuagiza bidhaa kutoka china kupitia kampuni ya ALIBABAS mpaka bidhaa inakufikia sehemu ulipo.",
     },
